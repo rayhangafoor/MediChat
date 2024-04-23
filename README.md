@@ -1,5 +1,5 @@
 # A Chat App for medicos!
-This application lets users to create account, login to their account and start chatting
+This application lets users to create account, login to their account and start chatting!
 
 ### Key features
 1. Users can create channels for team chat or direct message another user.
