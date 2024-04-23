@@ -9,4 +9,4 @@ This application lets users to create account, login to their account and start 
 5. Users can upload documents/ images from their local device.
 
 ### Setup
-run npm i && npm start for both client and server side to start the development server and you're good to go!
+* run npm i && npm start for both client and server side to start the development server and you're good to go!
