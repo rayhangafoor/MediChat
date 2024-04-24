@@ -5,7 +5,7 @@ import { Chat } from "stream-chat-react";
 import Cookies from "universal-cookie";
 import { ChannelListContainer, ChannelContainer, Auth } from "./components";
 import "./App.css";
-import 'stream-chat-react/dist/css/index.css'
+import './StreamChatIndex.css'
 const apiKey = "azu8frpdvuye";
 const cookies = new Cookies();
 
@@ -38,7 +38,7 @@ const App = () => {
       <Chat client={client} theme="team light">
         <ChannelListContainer
           isCreating={isCreating}
-          isEditing={isEditing}
+          setIsCreating={setIsCreating}
           setCreateType={setCreateType}
           setIsEditing={setIsEditing}
         />
